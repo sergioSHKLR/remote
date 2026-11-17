@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="RemIR">
+  <rect width="32" height="32" rx="8" fill="#12141a"/>
+  <rect x="10.5" y="4" width="11" height="24" rx="5.5" fill="#e8edf2"/>
+  <circle cx="16" cy="10" r="2.15" fill="#d32636"/>
+</svg>

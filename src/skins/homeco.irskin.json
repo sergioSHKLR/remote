@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "id": "split-ac",
+  "name": "Homeco",
+  "short": "AC",
+  "model": "Homeco",
+  "builtin": true,
+  "designW": 280,
+  "designH": 500,
+  "photo": null,
+  "showDecals": true,
+  "protocol": {
+    "family": "goodweather",
+    "hz": 38000
+  },
+  "chassis": {
+    "bg": "#f3efe6",
+    "bg2": "#d9d3c6",
+    "border": "#c8c0b2",
+    "radiusTop": 14,
+    "radiusBot": 14
+  },
+  "decals": [
+    {
+      "id": "ir",
+      "kind": "ir",
+      "x": 131,
+      "y": 8,
+      "w": 18,
+      "h": 18
+    },
+    {
+      "id": "lcd",
+      "kind": "lcd",
+      "x": 22,
+      "y": 32,
+      "w": 236,
+      "h": 96
+    },
+    {
+      "id": "hint",
+      "kind": "text",
+      "x": 20,
+      "y": 472,
+      "w": 240,
+      "h": 16,
+      "text": "Aim the dongle at the indoor unit",
+      "color": "#6e675c",
+      "size": 10,
+      "tracking": 0.2,
+      "weight": 600
+    }
+  ],
+  "keys": [
+    {
+      "shape": "round",
+      "radius": 9,
+      "bg": "#d32636",
+      "fg": "#fff",
+      "border": "#ff8d96",
+      "fontSize": 13,
+      "weight": 650,
+      "opacity": 1,
+      "repeat": false,
+      "tracking": 0.8,
+      "id": "power",
+      "label": "POWER",
+      "action": {
+        "t": "ac",
+        "op": "power"
+      },
+      "x": 22,
+      "y": 146,
+      "w": 110,
+      "h": 52,
+      "glyph": "power"
+    },
+    {
+      "shape": "round",
+      "radius": 9,
+      "bg": "#f4f1ea",
+      "fg": "#1c1e22",
+      "border": "#d9d3c7",
+      "fontSize": 14,
+      "weight": 650,
+      "opacity": 1,
+      "repeat": false,
+      "tracking": 0.8,
+      "id": "mode",
+      "label": "MODE",
+      "action": {
+        "t": "ac",
+        "op": "mode"
+      },
+      "x": 148,
+      "y": 146,
+      "w": 110,
+      "h": 52
+    },
+    {
+      "shape": "round",
+      "radius": 9,
+      "bg": "#f4f1ea",
+      "fg": "#1c1e22",
+      "border": "#d9d3c7",
+      "fontSize": 18,
+      "weight": 700,
+      "opacity": 1,
+      "repeat": true,
+      "tracking": 0.3,
+      "id": "up",
+      "label": "TEMP +",
+      "action": {
+        "t": "ac",
+        "op": "temp+"
+      },
+      "x": 22,
+      "y": 212,
+      "w": 236,
+      "h": 64
+    },
+    {
+      "shape": "round",
+      "radius": 9,
+      "bg": "#f4f1ea",
+      "fg": "#1c1e22",
+      "border": "#d9d3c7",
+      "fontSize": 18,
+      "weight": 700,
+      "opacity": 1,
+      "repeat": true,
+      "tracking": 0.3,
+      "id": "down",
+      "label": "TEMP −",
+      "action": {
+        "t": "ac",
+        "op": "temp-"
+      },
+      "x": 22,
+      "y": 286,
+      "w": 236,
+      "h": 64
+    },
+    {
+      "shape": "round",
+      "radius": 9,
+      "bg": "#f4f1ea",
+      "fg": "#1c1e22",
+      "border": "#d9d3c7",
+      "fontSize": 14,
+      "weight": 650,
+      "opacity": 1,
+      "repeat": false,
+      "tracking": 0.8,
+      "id": "fan",
+      "label": "FAN",
+      "action": {
+        "t": "ac",
+        "op": "fan"
+      },
+      "x": 22,
+      "y": 364,
+      "w": 110,
+      "h": 56
+    },
+    {
+      "shape": "round",
+      "radius": 9,
+      "bg": "#f4f1ea",
+      "fg": "#1c1e22",
+      "border": "#d9d3c7",
+      "fontSize": 13,
+      "weight": 650,
+      "opacity": 1,
+      "repeat": false,
+      "tracking": 0.6,
+      "id": "swing",
+      "label": "SWING",
+      "action": {
+        "t": "ac",
+        "op": "swing"
+      },
+      "x": 148,
+      "y": 364,
+      "w": 110,
+      "h": 56
+    }
+  ]
+}
