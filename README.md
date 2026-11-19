@@ -1,3 +1,5 @@
+<p align="center" data-brand-icon><img src="brand-kit/remote/icons/tile-dark.svg" alt="REMOTE" width="128" height="128"></p>
+
 # REMOTE (formerly RemIR)
 
 Lifelike TV and AC remotes for a USB IR dongle (Hrebos / ElkSmart, USB vendor `0x045C`), driven from the browser over WebUSB.
