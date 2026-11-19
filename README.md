@@ -2,7 +2,7 @@
 
 Lifelike TV and AC remotes for a USB IR dongle (Hrebos / ElkSmart, USB vendor `0x045C`), driven from the browser over WebUSB.
 
-**Live:** https://sergioshklr.github.io/remote/ (the old `/remir/` URL redirects here)
+**Live:** https://sergioshklr.github.io/remote/ · **Brand:** [brand-kit/](brand-kit/README.md) (SHKLR brand kit, final 19 Nov 2026)
 
 ## Where this came from
 
