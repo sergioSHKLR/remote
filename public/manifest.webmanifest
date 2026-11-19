@@ -1,13 +1,47 @@
 {
-  "name": "RemIR",
-  "short_name": "RemIR",
+  "name": "REMOTE",
+  "short_name": "REMOTE",
+  "description": "Lifelike remotes for any infrared device, sent through a USB IR blaster. Restyle every key, or drop a photo of a remote and drag the hotspots.",
   "start_url": "/remir/",
   "scope": "/remir/",
   "display": "standalone",
   "background_color": "#2a3038",
   "theme_color": "#2a3038",
   "icons": [
-    { "src": "/remir/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/remir/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "/remir/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/remir/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/remir/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/remir/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/remir/icon-monochrome-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "/remir/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
   ]
 }
