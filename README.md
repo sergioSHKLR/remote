@@ -1,8 +1,8 @@
-# RemIR
+# REMOTE (formerly RemIR)
 
 Lifelike TV and AC remotes for a USB IR dongle (Hrebos / ElkSmart, USB vendor `0x045C`), driven from the browser over WebUSB.
 
-**Live:** https://sergioshklr.github.io/remir/
+**Live:** https://sergioshklr.github.io/remote/ (the old `/remir/` URL redirects here)
 
 ## Where this came from
 
@@ -33,7 +33,7 @@ Open the live URL in Chrome (desktop or Android). Plug in the dongle and tap **C
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173/remir/
+npm run dev      # http://localhost:5173/remote/
 npm test
 npm run lint
 npm run build    # dist/, deployed by .github/workflows/pages.yml on push to main
