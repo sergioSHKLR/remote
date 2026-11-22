@@ -1,13 +1,18 @@
-/* SHKLR brand kit — colour tokens (final, approved 19 Nov 2026). Generated; do not hand-edit. */
+/* SHKLR brand kit — colour tokens (rev 4, 22 Nov 2026; rev 3 approved 19 Nov 2026). Generated; do not hand-edit. */
 :root {
   --shklr-ink: #111111;
   --shklr-ink-inverse: #f2f2f2;
   --shklr-hairline: #cfcfcf;
-  --remote-plate: #2a3038;
+  --remote-plate: #666666;
   --remote-ink: #f2f2f2;
-  --remote-muted: #acaeb1;
-  --remote-glyph-1: #d94040; /* signal arcs + IR dome · 3.01:1 */
-  --remote-glyph-2: #9aa0a6; /* remote body · 5.04:1 */
+  --remote-muted: #e4e4e4;
+  --remote-glyph-1: #e06666; /* IR arcs + dome outline (rev 4) · 1.71:1 */
+  --remote-glyph-2: #2a3038; /* handset screen (rev 4) · 2.32:1 */
+  --remote-glyph-3: #999999; /* handset (rev 4) · 2.02:1 */
+  --remote-glyph-4: #cc0000; /* IR dome fill (rev 4) · 1.03:1 */
+  --remote-app-bg: #2a3038; /* app/theme/OG background; icon plate #666666 (2.32:1 vs bg) */
+  --remote-app-ink: #f2f2f2;
+  --remote-app-muted: #acaeb1;
 }
 /* dual-mode apps: map the active scheme */
 .remote { --app-plate: var(--remote-plate); --app-ink: var(--remote-ink); --app-muted: var(--remote-muted); } /* single mode */

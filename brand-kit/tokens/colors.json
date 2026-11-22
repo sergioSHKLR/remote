@@ -1,33 +1,50 @@
 {
- "_note": "SHKLR brand kit final (approved 19 Nov 2026). plate = icon/tile background = app surface it was sampled from; ink/muted = text on that plate; glyph = icon stroke/fill colours with WCAG contrast vs plate.",
+ "_note": "SHKLR brand kit rev 4 (22 Nov 2026; rev 3 approved 19 Nov 2026). plate = icon/tile background = app surface it was sampled from; ink/muted = text on that plate; glyph = icon stroke/fill colours with WCAG contrast vs plate.",
  "apps": {
   "remote": {
    "name": "REMOTE",
    "mode": "single",
    "plates": {
     "dark": {
-     "plate": "#2a3038",
-     "source": "body background-color (= theme-color) (sergioshklr.github.io/remote)",
+     "plate": "#666666",
+     "source": "icon plate grey #666666 (Chief rev 4, was #2a3038 = live page); app/theme/OG background stays #2a3038",
      "ink": "#f2f2f2",
-     "muted": "#acaeb1",
-     "ink_contrast": 11.88,
-     "muted_contrast": 5.98,
+     "muted": "#e4e4e4",
+     "ink_contrast": 5.13,
+     "muted_contrast": 4.52,
      "glyph": [
       {
-       "role": "signal arcs + IR dome",
-       "hex": "#d94040",
-       "contrast": 3.01
+       "role": "IR arcs + dome outline (rev 4)",
+       "hex": "#e06666",
+       "contrast": 1.71
       },
       {
-       "role": "remote body",
-       "hex": "#9aa0a6",
-       "contrast": 5.04
+       "role": "handset screen (rev 4)",
+       "hex": "#2a3038",
+       "contrast": 2.32
+      },
+      {
+       "role": "handset (rev 4)",
+       "hex": "#999999",
+       "contrast": 2.02
+      },
+      {
+       "role": "IR dome fill (rev 4)",
+       "hex": "#cc0000",
+       "contrast": 1.03
       }
      ]
     }
    },
    "tagline": "Every remote, one IR blaster.",
-   "tagline_status": "final"
+   "tagline_status": "final",
+   "app_background": {
+    "hex": "#2a3038",
+    "ink": "#f2f2f2",
+    "muted": "#acaeb1",
+    "note": "theme-color, manifest and social-card background; icon plate stays #666666",
+    "icon_plate_contrast_vs_bg": 2.32
+   }
   }
  }
 }
